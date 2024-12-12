@@ -242,9 +242,10 @@ It features :
 ### 9. **Continuous Deployment Pipeline(Huggingface uploader pipeline)**:
 - This pipeline is here is to make continously train the model , it creates a hugging face repo automatically and  upload the trained model to huggingface repo without any manual interaction.
 
-### 10. **Custom inference pipeline** :
+### 10. **Custom inference pipeline**:
 
 The custom inference pipeline uses hugging face repo to make prediction using huggingface API , it loads the uploaded or deployed model from the huggingface and process the new input data to generate prediction seamlessly.
+
 ---
 
 This project combines cutting-edge machine learning techniques, robust engineering practices, and a user-centric design, making it a standout solution for sentiment analysis tasks.  
