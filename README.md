@@ -244,7 +244,7 @@ It features :
 
 ### 10. **Custom inference pipeline**:
 
-The custom inference pipeline uses hugging face repo to make prediction using huggingface API , it loads the uploaded or deployed model from the huggingface and process the new input data to generate prediction seamlessly.
+- The custom inference pipeline uses hugging face repo to make prediction using huggingface API , it loads the uploaded or deployed model from the huggingface and process the new input data to generate prediction seamlessly.
 
 ---
 
