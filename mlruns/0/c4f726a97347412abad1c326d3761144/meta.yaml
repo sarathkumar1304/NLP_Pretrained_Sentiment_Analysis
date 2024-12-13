@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sarath_kumar/NLP_PRETRAINED/mlruns/0/c4f726a97347412abad1c326d3761144/artifacts
+end_time: 1732958441896
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c4f726a97347412abad1c326d3761144
+run_name: zenml_artifact
+run_uuid: c4f726a97347412abad1c326d3761144
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732958437240
+status: 3
+tags: []
+user_id: sarath_kumar
