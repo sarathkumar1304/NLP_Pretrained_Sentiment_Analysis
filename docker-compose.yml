@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  sentiment-analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sentiment_analysis
+    ports:
+      - "8501:8501"  # Expose Streamlit on localhost
+    volumes:
+      - ./mlruns:/app/mlruns  # Mount volume for MLflow tracking
+      - ./models:/app/models  # Mount volume for saved models
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - ZENML_REPOSITORY_PATH=/app
+    command: >
+      sh -c "
+      zenml experiment-tracker register sentiment_analysis_mlflow --flavor=mlflow &&
+      zenml model-deployer register sentiment_analysis --flavor=huggingface --token=<YOUR_HF_TOKEN> --namespace=<YOUR_HF_NAMESPACE> &&
+      zenml stack register sentiment_analysis_stack -a default -o default -d sentiment_analysis -e sentiment_analysis_mlflow --set &&
+      streamlit run frontend/main.py
+      "

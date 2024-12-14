@@ -115,7 +115,7 @@ The sentiment prediction output with confidence scores is displayed:
 ## 🚀 Model Deployment on Hugging Face Hub
 The trained model has been uploaded to the **Hugging Face Hub** for public use. You can access it via the following link:
 
-👉 [Trained Sentiment Analysis Model on Hugging Face](https://huggingface.co/Sarathkumar1304ai/sentiment_analysis)
+👉 [Trained Sentiment Analysis Model on Hugging Face](https://huggingface.co/spaces/Sarathkumar1304ai/sentiment_analysis)
 
 Use this model to make predictions or integrate it into your own applications.
 
@@ -198,7 +198,7 @@ It features :
 ![zenml dash board](assets/zenml_1.png)
    - A **Huggingface uploader pipeline**(continous deployment pipeline) that uploads your trained model to  hugging face repo.
 ![zenml dashboard](assets/hf_uploader.png)
-   - A **huggingface_deployment_pipeline** creates infernece endpoint in the huggingface for public use., it ian paid one , you need to pay for deployment. you skip this pipeline, so it created an custome pipeline for prediction called **custom_infernece_pipeline**.
+   - A **huggingface_deployment_pipeline** creates infernece endpoint in the huggingface for public use., it is a paid one , you need to pay for deployment. you skip this pipeline, so I created an custom pipeline for prediction called **custom_infernece_pipeline**.
 
    - A **custom_inference_pipeline** to make prediction using hugging face model 
 
@@ -274,4 +274,4 @@ The journey doesn’t end here. This project showcases the seamless integration 
 ---  
 
 
-# NLP_Pretrained_Sentiment_Analysis
+# NLP-Pretrained-model-optimazation
