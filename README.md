@@ -272,6 +272,3 @@ This project lays the foundation for more advanced sentiment analysis applicatio
 The journey doesn’t end here. This project showcases the seamless integration of AI and MLOps, paving the way for impactful and scalable machine learning solutions. Let’s keep pushing the boundaries of innovation!  
 
 ---  
-
-
-# NLP-Pretrained-model-optimazation
