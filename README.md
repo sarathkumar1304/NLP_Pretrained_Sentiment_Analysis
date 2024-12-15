@@ -59,6 +59,8 @@ The project follows a structured workflow:
    - Build scalable MLOps pipelines using ZenML and deploy with huggingface.
 6. **User Interface**:
    - Enable real-time text classification via a Streamlit-based web app.
+  
+![Project Architecture](assets/project_02.drawio.svg)
 
 ---
 
